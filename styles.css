@@ -58,6 +58,7 @@ h4 {
 }
 
 /*why finowiz*/
+
 .row{
   text-align: center;
   font-size: 25px;
@@ -80,6 +81,7 @@ h4 {
 
 /*features section*/
 #features {
+  background-color:  #FEC260;
   position: relative;
 }
 .feature-title{
