@@ -39,12 +39,6 @@ h4 {
   line-height: 1.5;
 }
 
-@media(max-width:1028px) {
-  .rounded title-image{
-    position: static;
-    transform: rotate(0);
-  }
-
 #phoneno{
   background-color: #FEC260;
   padding: 50px;
