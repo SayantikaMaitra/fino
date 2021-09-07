@@ -38,6 +38,17 @@ h4 {
   font-size: 3.5rem;
   line-height: 1.5;
 }
+.title-image{
+  width: 40%;
+}
+@media(max-width:1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+
+
 
 #phoneno{
   background-color: #FEC260;
