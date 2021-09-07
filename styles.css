@@ -31,6 +31,12 @@ h4 {
 .video-carousel {
   background-color: #f0d9ff;
 }
+.rounded title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
 
 #phoneno{
   background-color: #FEC260;
