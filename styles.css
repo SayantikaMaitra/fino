@@ -180,17 +180,4 @@ h4 {
   .title-image  {
     position: static;
     transform: rotate(0);
-    width: 100%;
   }
-  .logo {
-   position: static;
-   transform: rotate(0);
- }
- .app-image {
-  position: static;
-  transform: rotate(0);
-}
-.rounded community-image{
-  position: static;;
-  transform: rotate(0);
-}
