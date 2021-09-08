@@ -76,21 +76,20 @@ h4 {
       margin: 0% 3% 3% 0;
 }
 .app-image{
-
     width: 40%;
     position: absolute;
 }
 .get-our-app-h1{
   font-family: "Montserrat-Black";
   font-size: 3.5rem;
-    color: #DDDDDD;
+  color: #DDDDDD;
   line-height: 1.5;
   padding: 1.5%;
 }
-.get-out-app-h2{
+.get-our-app-h2{
   padding: 1%;
-    color: #DDDDDD;
-  font-size:  3rem;
+  color: #DDDDDD;
+  font-size:  2.5rem;
   line-height: 1.5;
 }
 .apple-download-button{
@@ -100,11 +99,6 @@ h4 {
 
     margin: 5% 3% 5% 0;
 }
-
-
-
-
-
 
 /*tick*/
 #tick{
@@ -159,9 +153,6 @@ h4 {
 .community-title {
   margin: auto 5%;
 }
-.community-image {
-  margin: 5%;
-}
 .rounded-community-image{
   width: 40%;
   position: absolute;
@@ -180,4 +171,5 @@ h4 {
   .title-image  {
     position: static;
     transform: rotate(0);
+    width: 100%;
   }
