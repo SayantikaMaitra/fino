@@ -64,9 +64,9 @@ h4 {
   font-size: 25px;
 }
 .logo{
-  width: 400px;
+  width: 40%;
   padding: 1.5%;
-
+  position: absolute;
 }
 /*get our app*/
 #get-our-app{
