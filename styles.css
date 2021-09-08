@@ -172,7 +172,15 @@ h4 {
   margin: 5% 7%;
 }
 @media(max-width:1028px) {
-  .title-image , .app-image , .logo {
+  .title-image  {
     position: static;
     transform: rotate(0);
   }
+  .logo {
+   position: static;
+   transform: rotate(0);
+ }
+ .app-image {
+  position: static;
+  transform: rotate(0);
+}
