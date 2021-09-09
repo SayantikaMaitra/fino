@@ -171,7 +171,7 @@ h4 {
 
 /*founder and co-founder part*/
 #founder-bg {
-    background: linear-gradient(to right, #3B185F, #194089);
+    background: linear-gradient(to right, #3B185F, #0A043C);
 }
 .heading-founders {
     color: #fff;
@@ -193,8 +193,8 @@ h4 {
     font-family: 'Poppins Medium';
     max-width: 100%;
     display: grid;
-    grid-column-gap: 40px;
-    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 60px;
+    grid-template-columns: repeat(2, 1fr);
 }
 .founder-h1{
   text-align: center;
@@ -205,20 +205,6 @@ h4 {
 #know{
   width: 60%;
 }
-.teachers-card .top {
-    width: 238px;
-    height: 255px;
-    margin: 0 auto;
-}
-
-.teachers-card .top img {
-    width: 100%;
-    height: auto;
-}
-.meet-your-teachers h1 {
-    margin-bottom: 100px;
-}
-
 .card {
     position: relative;
     border-radius: 10px;
@@ -226,7 +212,7 @@ h4 {
 }
 
 .founder-img-top {
-    width: 80%;
+    width: 70%;
     position: absolute;
     top: -40px;
     left: 50%;
@@ -239,6 +225,7 @@ h4 {
   display: none;
   padding: 10px 0px;
 }
+
 
 
 
@@ -259,7 +246,7 @@ h4 {
       .founder-container {
           display: grid;
           grid-template-columns: 1fr;
-          grid-row-gap: 80px;
+          grid-row-gap: 90px;
       }
 
       .founder.container {

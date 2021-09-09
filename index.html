@@ -76,7 +76,7 @@
 
 
   <!-- video carousel  -->
-
+  <!--
   <div class="video-carousel">
     <h1 class="cards-heading">Video Cards</h1>
 
@@ -124,20 +124,21 @@
 
     </div>
   </div>
+-->
 
   <!--phone no submit-->
 
   <div class="d-flex justify-content-center aos-init aos-animate" data-aos="slide-left" id="phoneno">
-          <div class="col-lg-8 d-flex justify-content-center">
-            <h3 style="font-size: 24px;">Find the next big multi bagger investment now</h3>
-          </div>
-          <div class="col-lg-5">
-            <form>
-              <div class="form-inline">
-                <input type="text " id="phonenumber3" class="form-control" placeholder="Enter your phone number ">
-                <button class="btn  " id="sendIt2" type="submit" id="sendIt2Mob">Submit</button>
-              </div>
-            </form>
+    <div class="col-lg-8 d-flex justify-content-center">
+      <h3 style="font-size: 24px;">Find the next big multi bagger investment now</h3>
+    </div>
+    <div class="col-lg-5">
+      <form>
+        <div class="form-inline">
+          <input type="text " id="phonenumber3" class="form-control" placeholder="Enter your phone number ">
+          <button class="btn  " id="sendIt2" type="submit" id="sendIt2Mob">Submit</button>
+        </div>
+      </form>
     </div>
   </div>
 
@@ -150,7 +151,7 @@
 
 
       <h1 class="get-our-app-h1">Get Our App</h1>
-      <h2 class= "get-our-app-h2">Get started today and trade Bitcoin, Ethereum, Doge, Shiba Inu, Cardano, and more, all without any Investment.</h2>
+      <h2 class="get-our-app-h2">Get started today and trade Bitcoin, Ethereum, Doge, Shiba Inu, Cardano, and more, all without any Investment.</h2>
       <button type="button" class="btn btn-dark btn-lg apple-download-button"><i class="fab fa-apple"></i> Download</button>
 
       <button type="button" class="btn btn-outline-light btn-lg playstore-download-button"><i class="fab fa-google-play"></i> Download</button>
@@ -160,7 +161,7 @@
       <img class="title-image app-image" src="https://img.freepik.com/free-vector/neon-style-coming-soon-glowing-background-design_1017-25516.jpg?size=626&ext=jpg" alt="app-image" width="700">
     </div>
   </div>
-</div>
+  </div>
 
 
 
@@ -253,57 +254,42 @@
 
 
 
-  <div class="chat-with-founders-mob"><div id="founder-bg" class="container-fluid pt-2 pb-2 mt-5">
-    <div class="meet-your-teachers founder container">
+  <div class="chat-with-founders-mob">
+    <div id="founder-bg" >
+      <div class="founder container">
         <h1 class="founder-h1">Our Team</h1>
 
         <div id="teachers-m">
-            <div class="teachers-container founder-container">
-                <div class="card shadow-lg aos-init aos-animate" data-aos="fade-in">
-                    <img class="founder-img-top" src="" alt="Founder">
-                    <div class="card-body">
-                        <h5 class="card-title">name of the founder</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Founder</h6>
-                        <p class="card-text">
-                            about first founder
-                        </p>
-                    </div>
-                </div>
-                <div class="card shadow-lg aos-init aos-animate" data-aos="fade-in">
-                    <img class="co-founder-img-top founder-img-top" src="" alt="co-founder">
-                    <div class="card-body">
-                        <h5 class="card-title">name of the co-founder</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Co-Founder</h6>
-                        <p class="card-text">
-                            about co-founder
-                        </p>
-                    </div>
-                </div>
-                <div class="card shadow-lg aos-init aos-animate" data-aos="fade-in">
-                    <img class="co-founder-img-top founder-img-top" src="" alt="co-founder">
-                    <div class="card-body">
-                        <h5 class="card-title">name of the co-founder</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Co-Founder</h6>
-                        <p class="card-text">
-                            about co-founder
-                        </p>
-                    </div>
-                </div>
+          <div class=" founder-container">
+            <div class="card shadow-lg aos-init aos-animate" data-aos="fade-in">
+              <img class="founder-img-top" src="" alt="Founder">
+              <div class="card-body">
+                <h5 class="card-title">name of the co-founder</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Co-Founder</h6>
+                <p class="card-text">
+                  about co-founder
+                </p>
+              </div>
             </div>
+            <div class="card shadow-lg aos-init aos-animate" data-aos="fade-in">
+              <img class="co-founder-img-top founder-img-top" src="" alt="co-founder">
+              <div class="card-body">
+                <h5 class="card-title">name of the co-founder</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Co-Founder</h6>
+                <p class="card-text">
+                  about co-founder
+                </p>
+              </div>
+            </div>
+
+          </div>
         </div>
         <div class="container mt-5 d-flex justify-content-center">
 
-            <button id="sendIt2" class="btn pink-btn know-more" type="submit" onclick="window.location='about-us'" >Know  more about Finowiz</button>
+          <button id="sendIt2" class="btn pink-btn know-more" type="submit" onclick="window.location='about-us'">Know more about Finowiz</button>
         </div>
+      </div>
     </div>
-</div>
-<script>
-    if (screen.width < 800) {
-        $('.know-more').show();
-        $('.know-more-desk').hide();
-        $('.heading-founders').css('font-size', '32px');
-    }
-</script>
 
 
 
@@ -312,8 +298,9 @@
 
 
 
-  <!--  Bootstrap Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <!--  Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 
 </body>
 
