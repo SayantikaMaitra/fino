@@ -54,7 +54,7 @@ h4 {
 #sendIt2{
   background-color: #3B185F;
   color: white;
-  background-image: linear-gradient(40deg, #bf68e6 20%, #9e48cd 51%, #bf68e6 90% );
+  background-image: linear-gradient(40deg, #0C7B93 20%, #0C7B93 51%, #0C7B93 90% );
 }
 
 /*why finowiz*/
@@ -167,6 +167,85 @@ h4 {
   text-align: center;
   margin: 5% 7%;
 }
+
+
+/*founder and co-founder part*/
+#founder-bg {
+    background: linear-gradient(to right, #3B185F, #194089);
+}
+.heading-founders {
+    color: #fff;
+}
+
+.card-title {
+    font-weight: bold;
+    margin-top: 245px;
+}
+
+.card-text {
+    font-size: 14px;
+    text-align: justify;
+    color: #5F5982;
+    margin-top: 15px;
+}
+
+.founder-container {
+    font-family: 'Poppins Medium';
+    max-width: 100%;
+    display: grid;
+    grid-column-gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.founder-h1{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 70px;
+}
+#know{
+  width: 60%;
+}
+.teachers-card .top {
+    width: 238px;
+    height: 255px;
+    margin: 0 auto;
+}
+
+.teachers-card .top img {
+    width: 100%;
+    height: auto;
+}
+.meet-your-teachers h1 {
+    margin-bottom: 100px;
+}
+
+.card {
+    position: relative;
+    border-radius: 10px;
+    min-height: 492px;
+}
+
+.founder-img-top {
+    width: 80%;
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    filter: drop-shadow(0px 5px 20px rgba(38, 50, 56, 0.2));
+    border-radius: 10px;
+}
+.know-more{
+  width: 100vw;
+  display: none;
+  padding: 10px 0px;
+}
+
+
+
+
+
+
+
 @media(max-width:1028px) {
   .title-image  {
     position: static;
@@ -176,3 +255,23 @@ h4 {
     position: static;
     transform: rotate(0);
   }
+  @media (max-width: 425px) {
+      .founder-container {
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-row-gap: 80px;
+      }
+
+      .founder.container {
+          padding: 0 !important;
+      }
+
+      .para-founders {
+          padding-left: 20px;
+          padding-right: 20px;
+      }
+  }
+      @media (max-width: 475px) {
+          #know {
+              margin-bottom: 40px;
+          }
